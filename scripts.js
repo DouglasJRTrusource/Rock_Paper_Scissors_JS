@@ -51,7 +51,6 @@ function game() {
     const computerSelection = getComputerChoice();
     const result = playRound(humanSelection, computerSelection);
     console.log(result);
-    console.log(`Score: Human ${humanScore} - Computer ${computerScore}`);
   }
   console.log("Final Score:");
   console.log(`Human: ${humanScore}`);
